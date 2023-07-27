@@ -63,10 +63,23 @@ Check back at Client-1 to see the ping succeed
 
 <p align="center">
 Install Active Directory
+<p> Login to DC-1 and install Active Directory Domain Services
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/OzIcXK5.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<p>
+Promote as a Domain Controller
+<p>
+<img src="https://imgur.com/4mv0SQJ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<p>
+Setup a new forest as mydomain.com (can be anything, just remember what it is)
+<p>
+<img src="https://imgur.com/YQsYsTo.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
+Restart and then log back into DC-1 as user: mydomain.com\labuser
+<p>
+<img src="https://imgur.com/miWH0Na.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
 <p align="center">
 Create an Admin and Normal User Account in Active Directory
   
