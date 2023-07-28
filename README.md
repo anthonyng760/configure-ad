@@ -82,7 +82,13 @@ Restart and then log back into DC-1 as user: mydomain.com\labuser
 </p>
 <p align="center">
 Create an Admin and Normal User Account in Active Directory
+<p> Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” & "ADMINS"
+<p>
+<img src="https://imgur.com/S5GKLdP.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/S2WYvhP.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
   
+</p>  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
