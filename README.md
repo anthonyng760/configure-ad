@@ -93,7 +93,7 @@ Create a new employee named “Jane Doe” (same password) with the username of 
 <p>
 Add jane_admin to the “Domain Admins” Security Group
 <p>
-
+<img src="https://i.imgur.com/nq2xZzz.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
   
 </p>  
