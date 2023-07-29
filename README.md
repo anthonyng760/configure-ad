@@ -89,7 +89,11 @@ Create an Admin and Normal User Account in Active Directory
 <p>
 Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
 <p>
-<img src="https://imgur.com/S2WYvhP.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZgLdkVO.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<p>
+Add jane_admin to the “Domain Admins” Security Group
+<p>
+
 </p>
   
 </p>  
