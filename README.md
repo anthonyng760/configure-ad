@@ -117,12 +117,21 @@ Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in 
 <p> Create a new OU named “_CLIENTS” and drag Client-1 into there
 <p>
 <img src="https://imgur.com/l2FNctc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-
-
+<p>
 
 
 <p align="center">
 Setup Remote Desktop for non-administrative users on Client-1
+<p> Log into Client-1 as mydomain.com\jane_admin and open system properties
+<p> Click “Remote Desktop”
+<p> Allow “domain users” access to remote desktop
+<p> You can now log into Client-1 as a normal, non-administrative user now
+<p> Normally you’d want to do this with Group Policy that allows you to change MANY systems at once 
+<p>
+<img src="https://imgur.com/cJ3pzC4.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+  
+
 
 
 
