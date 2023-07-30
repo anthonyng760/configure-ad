@@ -152,4 +152,7 @@ When finished, open ADUC and observe the accounts in the appropriate OU
 <img src="https://imgur.com/PPOQabq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
   
+I hope this tutorial helped you learn a little bit about network security protocols and observe traffic between virtual machines.
+
+<p> Now that we're done, DON'T FORGET TO CLEAN UP YOUR AZURE ENVIRONMENT and delete the Resource Groups that were created at the beginning of this tutorial so that you don't incur unnecessary charges.
 
