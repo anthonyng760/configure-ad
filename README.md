@@ -94,16 +94,29 @@ Create a new employee named “Jane Doe” (same password) with the username of 
 Add jane_admin to the “Domain Admins” Security Group
 <p>
 <img src="https://i.imgur.com/nq2xZzz.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-</p>
+<p>
+Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+<p>
+<img src="https://imgur.com/UztSnn7.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
   
-</p>  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 <p align="center">
 Join Client-1 to your domain (mydomain.com)
+<p> From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+<p>
+<img src="https://imgur.com/AgZ9aTI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p> From the Azure Portal, restart Client-1
+<p> Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)  
+<p>
+<img src="https://imgur.com/TlFHF7T.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
-
+<p>
+Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+<p> Create a new OU named “_CLIENTS” and drag Client-1 into there
+<p>
+<img src="https://imgur.com/l2FNctc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 
 
