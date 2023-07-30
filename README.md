@@ -132,10 +132,24 @@ Setup Remote Desktop for non-administrative users on Client-1
 </p>
   
 
-
-
-
-
-
 <p align="center">
 Create a bunch of additional users and attempt to log into client-1 with one of the users
+<p> Login to DC-1 as jane_admin
+<p> Open PowerShell_ise as an administrator
+<p> Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+<p>
+<img src="https://imgur.com/CT5lAmH.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
+Run the script and observe the accounts being created
+<p>
+<img src="https://imgur.com/8SyBr4K.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
+When finished, open ADUC and observe the accounts in the appropriate OU
+<p> Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+<p>
+<img src="https://imgur.com/ormKnsh.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/KVuS7Ca.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/PPOQabq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<p>
+  
+
